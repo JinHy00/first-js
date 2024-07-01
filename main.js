@@ -8,6 +8,7 @@ let chances = 3;
 let gameOver = false;
 let chanceArea = document.getElementById("chance-area");
 let history = [];
+let numRandomGoal = document.getElementById("numRandom");
 
 playButton.addEventListener("click", play);
 resetButton.addEventListener("click", reset);
@@ -17,6 +18,7 @@ userInput.addEventListener("focus", function () {
 
 function pickRandomNum() {
   computerNum = Math.floor(Math.random() * 100) + 1;
+  numRandomGoal.textContent = "랜덤숫자정답은?" + computerNum;
   console.log("정답", computerNum);
 }
 
@@ -29,8 +31,8 @@ function play() {
   }
 
   if (history.includes(userValue)) {
-    resultArea.textContent =
-      "이미 입력한 숫자입니다. 다른 숫자를 입력해주세요!";
+    resultArea.innerHTML =
+      "이미 입력한 숫자입니다. <br>다른 숫자를 입력해주세요!";
     return;
   }
 
