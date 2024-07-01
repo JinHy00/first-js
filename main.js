@@ -64,7 +64,11 @@ function play() {
 function reset() {
   userInput.value = "";
   pickRandomNum();
-
+  gameOver = false;
+  playButton.disabled = false;
+  chances = 3;
+  chanceArea.textContent = `남은 기회는 ${chances}번`;
+  history = [];
   resultArea.textContent = "결과값이 나옵니다";
 }
 
