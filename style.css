@@ -1,0 +1,62 @@
+.gameTitle {
+  text-align: center;
+  margin: 25%;
+}
+
+.gameResult {
+  text-align: center;
+}
+
+.gameChance {
+  text-align: center;
+}
+
+.gameRandomNum {
+  text-align: center;
+}
+
+.inputNumber {
+  text-align: center;
+  position: relative;
+  left: 50px;
+}
+
+.btn_go {
+  text-align: center;
+  position: relative;
+  left: 50px;
+  top: 2px;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  border: 2px solid rgb(235, 223, 116);
+  background-color: rgb(247, 247, 160);
+  border-radius: 4px;
+}
+
+.btn_reset {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  right: 120px;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  border: 2px solid rgb(235, 223, 116);
+  background-color: rgb(247, 247, 160);
+  border-radius: 4px;
+}
+
+.box {
+  width: 400px;
+  height: 500px;
+  background-color: cadetblue;
+  margin-top: 10%;
+  margin-left: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+}
