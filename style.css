@@ -1,18 +1,26 @@
 .gameTitle {
   text-align: center;
   margin: 25%;
+  text-shadow: 2px 1px 2px pink;
 }
 
 .gameResult {
   text-align: center;
+  position: relative;
+  bottom: 50px;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .gameChance {
   text-align: center;
+  font-size: 16px;
+  font-weight: 900;
 }
 
 .gameRandomNum {
   text-align: center;
+  font-weight: 900;
 }
 
 .inputNumber {
@@ -27,7 +35,7 @@
   left: 50px;
   top: 2px;
   font-size: 16px;
-  font-weight: bolder;
+  font-weight: 900;
   cursor: pointer;
   border: 2px solid rgb(235, 223, 116);
   background-color: rgb(247, 247, 160);
@@ -54,7 +62,7 @@
   margin-top: 10%;
   margin-left: 10px;
   padding-top: 10px;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
   color: white;
